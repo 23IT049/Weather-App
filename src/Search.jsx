@@ -5,8 +5,8 @@ import { useState } from 'react';
 export default function Search({updateinfo}){
     
     let [city,setcity]=useState("")
-    let API_KEY="44e00db1c0c4019faa6bd1ea1a289a52"
-    let API_URL="https://api.openweathermap.org/data/2.5/weather"
+    let API_KEY=""
+    let API_URL=""
     let Handlecity=(event)=>{
         setcity(event.target.value)
     }
